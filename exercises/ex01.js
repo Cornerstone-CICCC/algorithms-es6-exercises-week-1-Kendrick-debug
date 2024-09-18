@@ -6,12 +6,15 @@ Write an if…else statement that:
 Hint: Use the %(modulo) operator to determine is a number is even or odd.
 */
 
-const number = 3; // Change your number to test your if statement
+const number = 19; // Change your number to test your if statement
 
-if (/* your if condition goes here */) {
-    
+if (number%2 === 0) {
+    console.log("It's an even number")
 } else {
-    
+    console.log("It's an odd number") 
 }
+
+
+   
 
 
