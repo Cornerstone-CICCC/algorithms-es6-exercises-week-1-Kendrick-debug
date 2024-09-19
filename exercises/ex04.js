@@ -11,3 +11,21 @@ Fill in the blanks with the flavor of the ice cream, vessel, and toppings. For e
 
 I'd like two scoops of vanilla ice cream in a cone with peanuts. 
 */
+
+
+let flavour = "chocolate" 
+let vessel = "bowl" 
+let toppings = "peanuts"
+
+
+if ((flavour === "vanilla" || flavour === "chocolate") &&
+   (vessel === "cone" || vessel === "bowl") &&
+    (toppings === "sprinkles" || toppings === "peanuts")) {
+    console.log(`I'd like two scoops of ${flavour} ice cream in a ${vessel} with ${toppings}`)
+} else {
+    console.log("Conditions are not met for your ice cream order")
+}
+
+
+
+
