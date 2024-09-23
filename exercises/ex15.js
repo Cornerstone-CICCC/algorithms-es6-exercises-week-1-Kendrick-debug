@@ -14,6 +14,11 @@ function ageCalculator(name, yearOfBirth, currentYear) {
     return `${name} is ${age} years old.`
 } 
 
+const name = "kenny";
+const yearOfBirth = 2003;
+const currentYear = 2024;
 
-const greeting = ageCalculator("kenny", 2003, 2024)
-console.log(greeting)
+// const greeting = ageCalculator(name, 2003, 2024)
+console.log(ageCalculator(name, yearOfBirth, currentYear))
+console.log(ageCalculator("Daz", 1997, 2024))
+// console.log(greeting)
