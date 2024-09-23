@@ -26,14 +26,14 @@ const facebookProfile = {
             this.messages.splice(index, 1);
         } else {
             console.log("i is invalid.");
-        }
+        } //managed 
     },
     
     addFriend: function() {
         this.friendsCount++;
     },
     
-    removeFriend: function() {
+    removeFriend: function() { //so now i go to the friends remove section
         if (this.friendsCount > 0) {
             this.friendsCount--;
         } else {
@@ -50,5 +50,8 @@ facebookProfile.deleteMessage(0);
 facebookProfile.addFriend();
 
 facebookProfile.removeFriend();
-
+// Don't know what to do here
 console.log(facebookProfile.messages, friendsCount)
+
+
+//could not complete and get the right answer
